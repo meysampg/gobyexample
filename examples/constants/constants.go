@@ -1,12 +1,12 @@
-// Go supports _constants_ of character, string, boolean,
-// and numeric values.
+// گو از ثابت‌های کاراکتر، رشته، بولین،
+// و متغیر‌های عددی پشتیبانی می‌کند.
 
 package main
 
 import "fmt"
 import "math"
 
-// `const` declares a constant value.
+// با عبارت `const` میتوانید یک مقدار ثابت تعریف کنید.
 const s string = "constant"
 
 func main() {
@@ -14,6 +14,8 @@ func main() {
 
     // A `const` statement can appear anywhere a `var`
     // statement can.
+
+    //
     const n = 500000000
 
     // Constant expressions perform arithmetic with

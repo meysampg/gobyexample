@@ -25,8 +25,8 @@
         
         <tr>
           <td class="docs">
-            <p>Go supports <em>constants</em> of character, string, boolean,
-and numeric values.</p>
+            <p>گو از ثابت‌های کاراکتر، رشته، بولین،
+و متغیر‌های عددی پشتیبانی می‌کند.</p>
 
           </td>
           <td class="code empty leading">
@@ -40,7 +40,7 @@ and numeric values.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/T5sj0eINnp"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/tDn6v1csDA"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -62,7 +62,7 @@ and numeric values.</p>
         
         <tr>
           <td class="docs">
-            <p><code>const</code> declares a constant value.</p>
+            <p>با عبارت <code>const</code> میتوانید یک مقدار ثابت تعریف کنید.</p>
 
           </td>
           <td class="code leading">
@@ -92,9 +92,20 @@ and numeric values.</p>
 statement can.</p>
 
           </td>
+          <td class="code empty leading">
+	        
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="docs">
+            
+          </td>
           <td class="code leading">
 	        
-            <div class="highlight"><pre>    <span class="kd">const</span> <span class="nx">n</span> <span class="p">=</span> <span class="mi">500000000</span>
+            <div class="highlight"><pre>    <span class="c1">//</span>
+    <span class="kd">const</span> <span class="nx">n</span> <span class="p">=</span> <span class="mi">500000000</span>
 </pre></div>
 
           </td>
