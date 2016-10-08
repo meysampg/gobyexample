@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Variables</title>
+    <title>گو با مثال: Variables</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
-    if (window.location.host == "gobyexample.com") {
+    if (window.location.host == "goex.ir") {
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34996217-1']);
       _gaq.push(['_trackPageview']);
@@ -19,15 +19,13 @@
   </script>
   <body>
     <div class="example" id="variables">
-      <h2><a href="./">Go by Example</a>: Variables</h2>
+      <h2><a href="./">گو با مثال</a>: Variables</h2>
       
       <table>
         
         <tr>
           <td class="docs">
-            <p>In Go, <em>variables</em> are explicitly declared and used by
-the compiler to e.g. check type-correctness of function
-calls.</p>
+            <p>در گو، <em>متغییرها</em> به صراحت تعریف میشوند و توسط کامپایلر استفاده می‌شوند.</p>
 
           </td>
           <td class="code empty leading">
@@ -41,7 +39,7 @@ calls.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/Zv45CSMaiD"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/bZFCexmM9F"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -74,7 +72,7 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p><code>var</code> declares 1 or more variables.</p>
+            <p>با <code>var</code> یک یا چنیدین متغییر تعریف کنید.</p>
 
           </td>
           <td class="code leading">
@@ -88,7 +86,7 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p>You can declare multiple variables at once.</p>
+            <p>شما میتونید چند متغیر رو یک مرتبه تعریف کنید.</p>
 
           </td>
           <td class="code leading">
@@ -102,7 +100,7 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p>Go will infer the type of initialized variables.</p>
+            <p>گو حتی نوع متغیر تعریف شده را حدس میزند.</p>
 
           </td>
           <td class="code leading">
@@ -116,9 +114,8 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p>Variables declared without a corresponding
-initialization are <em>zero-valued</em>. For example, the
-zero value for an <code>int</code> is <code>0</code>.</p>
+            <p>متغیر‌ها بدون مقدار اولیه نیز قابل تعریف هستند.
+برای مثال مقدار اولیه <code>اعداد صحیح</code> <code>0</code> است.</p>
 
           </td>
           <td class="code leading">
@@ -132,9 +129,8 @@ zero value for an <code>int</code> is <code>0</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>The <code>:=</code> syntax is shorthand for declaring and
-initializing a variable, e.g. for
-<code>var f string = &quot;short&quot;</code> in this case.</p>
+            <p>عبارت <code>:=</code> راهی برای کوتاه کردن تعریف و مقداردهی اولیه برای یک متغیر می‌باشد،
+برای مثال در این کیس <code>var f string = &quot;short&quot;</code></p>
 
           </td>
           <td class="code">
@@ -172,11 +168,11 @@ initializing a variable, e.g. for
       
       
       <p class="next">
-        Next example: <a href="constants">Constants</a>.
+        مثال بعدی: <a href="constants">Constants</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://twitter.com/mmcgrana">@mmcgrana</a> | <a href="mailto:mmcgrana@gmail.com">feedback</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/variables">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://twitter.com/mazafard">ترجمه شده است</a> | <a href="mailto:پmazafard@gmail.com">بازخورد</a> | <a href="https://github.com/mazafard/gobyexample/blob/master/examples/variables">منبع</a> | <a href="https://github.com/mazafard/gobyexample#license">مجوز</a>
       </p>
     </div>
   </body>

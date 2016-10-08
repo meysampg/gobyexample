@@ -18,6 +18,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    direction: rtl;
+
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -108,12 +110,14 @@ td.docs {
     min-width: 420px;
     min-height: 5px;
     vertical-align: top;
-    text-align: left;
+    text-align: right;
+
 }
 td.docs p {
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 15px;
+
 }
 td.code {
     width: 480px;
@@ -125,6 +129,8 @@ td.code {
     padding-bottom: 5px;
     vertical-align: top;
     background: #f0f0f0;
+    direction: ltr;
+    text-align: left;
 }
 td.code.leading {
     padding-bottom: 11px;
@@ -135,6 +141,7 @@ td.code.empty {
 pre, code {
     font-size: 14px; line-height: 18px;
     font-family: 'Menlo', 'Monaco', 'Consolas', 'Lucida Console', monospace;
+    direction: ltr;
 }
 img.run {
   height: 16px;

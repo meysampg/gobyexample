@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: SHA1 Hashes</title>
+    <title>گو با مثال: SHA1 Hashes</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
-    if (window.location.host == "gobyexample.com") {
+    if (window.location.host == "goex.ir") {
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34996217-1']);
       _gaq.push(['_trackPageview']);
@@ -19,7 +19,7 @@
   </script>
   <body>
     <div class="example" id="sha1-hashes">
-      <h2><a href="./">Go by Example</a>: SHA1 Hashes</h2>
+      <h2><a href="./">گو با مثال</a>: SHA1 Hashes</h2>
       
       <table>
         
@@ -190,11 +190,11 @@ you should carefully research
       
       
       <p class="next">
-        Next example: <a href="base64-encoding">Base64 Encoding</a>.
+        مثال بعدی: <a href="base64-encoding">Base64 Encoding</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://twitter.com/mmcgrana">@mmcgrana</a> | <a href="mailto:mmcgrana@gmail.com">feedback</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/sha1-hashes">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://twitter.com/mazafard">ترجمه شده است</a> | <a href="mailto:پmazafard@gmail.com">بازخورد</a> | <a href="https://github.com/mazafard/gobyexample/blob/master/examples/sha1-hashes">منبع</a> | <a href="https://github.com/mazafard/gobyexample#license">مجوز</a>
       </p>
     </div>
   </body>

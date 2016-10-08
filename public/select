@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Select</title>
+    <title>گو با مثال: Select</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
-    if (window.location.host == "gobyexample.com") {
+    if (window.location.host == "goex.ir") {
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34996217-1']);
       _gaq.push(['_trackPageview']);
@@ -19,7 +19,7 @@
   </script>
   <body>
     <div class="example" id="select">
-      <h2><a href="./">Go by Example</a>: Select</h2>
+      <h2><a href="./">گو با مثال</a>: Select</h2>
       
       <table>
         
@@ -170,11 +170,11 @@ concurrently.</p>
       
       
       <p class="next">
-        Next example: <a href="timeouts">Timeouts</a>.
+        مثال بعدی: <a href="timeouts">Timeouts</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://twitter.com/mmcgrana">@mmcgrana</a> | <a href="mailto:mmcgrana@gmail.com">feedback</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/select">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://twitter.com/mazafard">ترجمه شده است</a> | <a href="mailto:پmazafard@gmail.com">بازخورد</a> | <a href="https://github.com/mazafard/gobyexample/blob/master/examples/select">منبع</a> | <a href="https://github.com/mazafard/gobyexample#license">مجوز</a>
       </p>
     </div>
   </body>

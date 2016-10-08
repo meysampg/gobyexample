@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Defer</title>
+    <title>گو با مثال: Defer</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
-    if (window.location.host == "gobyexample.com") {
+    if (window.location.host == "goex.ir") {
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34996217-1']);
       _gaq.push(['_trackPageview']);
@@ -19,7 +19,7 @@
   </script>
   <body>
     <div class="example" id="defer">
-      <h2><a href="./">Go by Example</a>: Defer</h2>
+      <h2><a href="./">گو با مثال</a>: Defer</h2>
       
       <table>
         
@@ -182,11 +182,11 @@ after being written.</p>
       
       
       <p class="next">
-        Next example: <a href="collection-functions">Collection Functions</a>.
+        مثال بعدی: <a href="collection-functions">Collection Functions</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://twitter.com/mmcgrana">@mmcgrana</a> | <a href="mailto:mmcgrana@gmail.com">feedback</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/defer">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://twitter.com/mazafard">ترجمه شده است</a> | <a href="mailto:پmazafard@gmail.com">بازخورد</a> | <a href="https://github.com/mazafard/gobyexample/blob/master/examples/defer">منبع</a> | <a href="https://github.com/mazafard/gobyexample#license">مجوز</a>
       </p>
     </div>
   </body>

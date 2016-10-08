@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Maps</title>
+    <title>گو با مثال: Maps</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
-    if (window.location.host == "gobyexample.com") {
+    if (window.location.host == "goex.ir") {
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34996217-1']);
       _gaq.push(['_trackPageview']);
@@ -19,7 +19,7 @@
   </script>
   <body>
     <div class="example" id="maps">
-      <h2><a href="./">Go by Example</a>: Maps</h2>
+      <h2><a href="./">گو با مثال</a>: Maps</h2>
       
       <table>
         
@@ -221,11 +221,11 @@ printed with <code>fmt.Println</code>.</p>
       
       
       <p class="next">
-        Next example: <a href="range">Range</a>.
+        مثال بعدی: <a href="range">Range</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://twitter.com/mmcgrana">@mmcgrana</a> | <a href="mailto:mmcgrana@gmail.com">feedback</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/maps">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://twitter.com/mazafard">ترجمه شده است</a> | <a href="mailto:پmazafard@gmail.com">بازخورد</a> | <a href="https://github.com/mazafard/gobyexample/blob/master/examples/maps">منبع</a> | <a href="https://github.com/mazafard/gobyexample#license">مجوز</a>
       </p>
     </div>
   </body>

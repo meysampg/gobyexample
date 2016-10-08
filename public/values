@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Values</title>
+    <title>گو با مثال: Values</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
-    if (window.location.host == "gobyexample.com") {
+    if (window.location.host == "goex.ir") {
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34996217-1']);
       _gaq.push(['_trackPageview']);
@@ -19,15 +19,15 @@
   </script>
   <body>
     <div class="example" id="values">
-      <h2><a href="./">Go by Example</a>: Values</h2>
+      <h2><a href="./">گو با مثال</a>: Values</h2>
       
       <table>
         
         <tr>
           <td class="docs">
-            <p>Go has various value types including strings,
-integers, floats, booleans, etc. Here are a few
-basic examples.</p>
+            <p>گو انواع مختلفی از مقادیر شامل رشته،
+عدد صحیح، عدد اعشاری، بولین و… می‌باشد.
+تعدادی از مثال‌های ابتدایی رو ببینم.</p>
 
           </td>
           <td class="code empty leading">
@@ -41,7 +41,7 @@ basic examples.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/fgGVOyuZdu"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/4GWNkgZ137"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -74,7 +74,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Strings, which can be added together with <code>+</code>.</p>
+            <p>رشته‌ها، که با کاراکتر + به هم‌دیگر متصل می‌شوند.</p>
 
           </td>
           <td class="code leading">
@@ -87,7 +87,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Integers and floats.</p>
+            <p>اعداد صحیح و اعشاری</p>
 
           </td>
           <td class="code leading">
@@ -101,7 +101,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Booleans, with boolean operators as you&rsquo;d expect.</p>
+            <p>بولین‌ها، با عملگر‌های بولینی که از آنها انتظار داریم.</p>
 
           </td>
           <td class="code">
@@ -141,11 +141,11 @@ basic examples.</p>
       
       
       <p class="next">
-        Next example: <a href="variables">Variables</a>.
+        مثال بعدی: <a href="variables">Variables</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://twitter.com/mmcgrana">@mmcgrana</a> | <a href="mailto:mmcgrana@gmail.com">feedback</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/values">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://twitter.com/mazafard">ترجمه شده است</a> | <a href="mailto:پmazafard@gmail.com">بازخورد</a> | <a href="https://github.com/mazafard/gobyexample/blob/master/examples/values">منبع</a> | <a href="https://github.com/mazafard/gobyexample#license">مجوز</a>
       </p>
     </div>
   </body>

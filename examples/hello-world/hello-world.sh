@@ -1,17 +1,24 @@
-# To run the program, put the code in `hello-world.go` and
-# use `go run`.
+# برای اجرای برنامه، کد را در
+# فایلی به نام `hello-world.go`
+# قرار دهید و
+# با استفاده از دستور `go run`
+# در ترمینال برنامه را اجرا کنید.
 $ go run hello-world.go
 hello world
 
-# Sometimes we'll want to build our programs into
-# binaries. We can do this using `go build`.
+# گاهی اوقات میخواهیم برنامه‌ی
+# مابصورت یک فایل باینری اجرا شود،
+# با استفاده از `go build`
+# میتونید آشنا شوید.
 $ go build hello-world.go
 $ ls
 hello-world	hello-world.go
 
-# We can then execute the built binary directly.
+# و به راحتی و مستقیم میتونیم باینری
+# ساخته شده رو مستقیم اجرا کنیم.
 $ ./hello-world
 hello world
 
-# Now that we can run and build basic Go programs, let's
-# learn more about the language.
+# حالا ما میتونیم یک برنامه‌ی پایه‌ای گو
+# را بسازیم و اجرا کنیم،
+# بیاید بیشتر در مورد این زبان بدانیم

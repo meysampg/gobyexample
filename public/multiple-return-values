@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Multiple Return Values</title>
+    <title>گو با مثال: Multiple Return Values</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
-    if (window.location.host == "gobyexample.com") {
+    if (window.location.host == "goex.ir") {
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34996217-1']);
       _gaq.push(['_trackPageview']);
@@ -19,7 +19,7 @@
   </script>
   <body>
     <div class="example" id="multiple-return-values">
-      <h2><a href="./">Go by Example</a>: Multiple Return Values</h2>
+      <h2><a href="./">گو با مثال</a>: Multiple Return Values</h2>
       
       <table>
         
@@ -155,11 +155,11 @@ feature of Go functions; we&rsquo;ll look at this next.</p>
       
       
       <p class="next">
-        Next example: <a href="variadic-functions">Variadic Functions</a>.
+        مثال بعدی: <a href="variadic-functions">Variadic Functions</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://twitter.com/mmcgrana">@mmcgrana</a> | <a href="mailto:mmcgrana@gmail.com">feedback</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/multiple-return-values">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://twitter.com/mazafard">ترجمه شده است</a> | <a href="mailto:پmazafard@gmail.com">بازخورد</a> | <a href="https://github.com/mazafard/gobyexample/blob/master/examples/multiple-return-values">منبع</a> | <a href="https://github.com/mazafard/gobyexample#license">مجوز</a>
       </p>
     </div>
   </body>

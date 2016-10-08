@@ -1,2 +1,5 @@
 .anvil
 *.pyc
+.idea/
+goex.iml
+public/hello-world
