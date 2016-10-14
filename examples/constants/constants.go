@@ -12,24 +12,21 @@ const s string = "constant"
 func main() {
     fmt.Println(s)
 
-    // A `const` statement can appear anywhere a `var`
-    // statement can.
-
-    //
+    // عبارت `const` میتواند هر جایی که
+    // `var` قرار گیرد استفاده شود.
     const n = 500000000
 
-    // Constant expressions perform arithmetic with
-    // arbitrary precision.
+    // مقادیر ثابت‌ها میتوانند شامل عبارات منطقی و ریاضی نیز باشند.
     const d = 3e20 / n
     fmt.Println(d)
 
-    // A numeric constant has no type until it's given
-    // one, such as by an explicit cast.
+    // یک ثابت عددی تا زمانی که بصورت تبدیلی
+    // واضح به آن تایپی داده نشده، تایپی ندارد.
     fmt.Println(int64(d))
 
-    // A number can be given a type by using it in a
-    // context that requires one, such as a variable
-    // assignment or function call. For example, here
-    // `math.Sin` expects a `float64`.
+    // به یک عدد میتوان بوسیله‌ی استفاده از آن در یک کانتکست تایپ داد،
+    // به مانند مقداری دهی یک متغیر یا صدا کردن یک تابع.
+    // برای مثال،  از خروجی `math.Sin`
+    // انتظار یک `float64` را داریم.
     fmt.Println(math.Sin(n))
 }

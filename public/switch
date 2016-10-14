@@ -25,8 +25,8 @@
         
         <tr>
           <td class="docs">
-            <p><em>Switch statements</em> express conditionals across many
-branches.</p>
+            <p><em>حالت سوییچ</em> بین حالت‌های مختلف
+یک وضعیت مناسب را بر میگزیند.</p>
 
           </td>
           <td class="code empty leading">
@@ -40,7 +40,7 @@ branches.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/8b5CajPcHn"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/zLFPhobwLv"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -74,7 +74,8 @@ branches.</p>
         
         <tr>
           <td class="docs">
-            <p>Here&rsquo;s a basic <code>switch</code>.</p>
+            <p>Here&rsquo;s a basic .
+یک <code>سوییچ</code> ساده</p>
 
           </td>
           <td class="code leading">
@@ -96,9 +97,10 @@ branches.</p>
         
         <tr>
           <td class="docs">
-            <p>You can use commas to separate multiple expressions
-in the same <code>case</code> statement. We use the optional
-<code>default</code> case in this example as well.</p>
+            <p>میتونید با استفاده از کاما در یک <code>case</code>،
+اکسپرشن‌های مختلفی را پوشش دهید.
+ما از کیس <code>default</code> به صورت دل‌خواه نیز در این مثال
+برای درک بهتر استفاده کردیم.</p>
 
           </td>
           <td class="code leading">
@@ -116,9 +118,10 @@ in the same <code>case</code> statement. We use the optional
         
         <tr>
           <td class="docs">
-            <p><code>switch</code> without an expression is an alternate way
-to express if/else logic. Here we also show how the
-<code>case</code> expressions can be non-constants.</p>
+            <p>از <code>switch</code> بدون اکسپرشن می‌توان بجای منطق if/else
+استفاده نمود. در این مثال ما حتی نشان
+می‌دهیم که چگونه <code>case</code> اکسپرشن‌ها
+می‌توانند ناثابت باشند.</p>
 
           </td>
           <td class="code">

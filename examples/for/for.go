@@ -1,27 +1,25 @@
-// `for` is Go's only looping construct. Here are
-// three basic types of `for` loops.
-
+// `for` تنها ساختار لوپ گو است.
+// سه مثال اولیه از لوپ‌های `for` را ببینیم.
 package main
 
 import "fmt"
 
 func main() {
 
-    // The most basic type, with a single condition.
+    // اولین مدل استفاده، با تک وضعیت.
     i := 1
     for i <= 3 {
         fmt.Println(i)
         i = i + 1
     }
 
-    // A classic initial/condition/after `for` loop.
+    // یک مثال از اجرا/وضعیت/بعد  برای لوپ `for`
     for j := 7; j <= 9; j++ {
         fmt.Println(j)
     }
 
-    // `for` without a condition will loop repeatedly
-    // until you `break` out of the loop or `return` from
-    // the enclosing function.
+    // `for` بدون وضعیت تا زمانی که شما از آن وضعیت خارج شید به صورت
+    // مکرر تکرار میشود مگر با `break` یا `return`(در یک تابع).
     for {
         fmt.Println("loop")
         break

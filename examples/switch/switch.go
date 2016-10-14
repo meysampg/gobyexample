@@ -1,5 +1,5 @@
-// _Switch statements_ express conditionals across many
-// branches.
+// _حالت سوییچ_ بین حالت‌های مختلف
+// یک وضعیت مناسب را بر میگزیند.
 
 package main
 
@@ -8,7 +8,8 @@ import "time"
 
 func main() {
 
-    // Here's a basic `switch`.
+    // Here's a basic .
+    // یک `سوییچ` ساده
     i := 2
     fmt.Print("write ", i, " as ")
     switch i {
@@ -20,9 +21,10 @@ func main() {
         fmt.Println("three")
     }
 
-    // You can use commas to separate multiple expressions
-    // in the same `case` statement. We use the optional
-    // `default` case in this example as well.
+    // میتونید با استفاده از کاما در یک `case`،
+    // اکسپرشن‌های مختلفی را پوشش دهید.
+    // ما از کیس `default` به صورت دل‌خواه نیز در این مثال
+    // برای درک بهتر استفاده کردیم.
     switch time.Now().Weekday() {
     case time.Saturday, time.Sunday:
         fmt.Println("it's the weekend")
@@ -30,9 +32,10 @@ func main() {
         fmt.Println("it's a weekday")
     }
 
-    // `switch` without an expression is an alternate way
-    // to express if/else logic. Here we also show how the
-    // `case` expressions can be non-constants.
+    // از `switch` بدون اکسپرشن می‌توان بجای منطق if/else
+    // استفاده نمود. در این مثال ما حتی نشان
+    // می‌دهیم که چگونه `case` اکسپرشن‌ها
+    // می‌توانند ناثابت باشند.
     t := time.Now()
     switch {
     case t.Hour() < 12:

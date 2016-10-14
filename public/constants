@@ -40,7 +40,7 @@
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/tDn6v1csDA"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/BkuTVqmDeW"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -88,24 +88,13 @@
         
         <tr>
           <td class="docs">
-            <p>A <code>const</code> statement can appear anywhere a <code>var</code>
-statement can.</p>
+            <p>عبارت <code>const</code> میتواند هر جایی که
+<code>var</code> قرار گیرد استفاده شود.</p>
 
-          </td>
-          <td class="code empty leading">
-	        
-            
-          </td>
-        </tr>
-        
-        <tr>
-          <td class="docs">
-            
           </td>
           <td class="code leading">
 	        
-            <div class="highlight"><pre>    <span class="c1">//</span>
-    <span class="kd">const</span> <span class="nx">n</span> <span class="p">=</span> <span class="mi">500000000</span>
+            <div class="highlight"><pre>    <span class="kd">const</span> <span class="nx">n</span> <span class="p">=</span> <span class="mi">500000000</span>
 </pre></div>
 
           </td>
@@ -113,8 +102,7 @@ statement can.</p>
         
         <tr>
           <td class="docs">
-            <p>Constant expressions perform arithmetic with
-arbitrary precision.</p>
+            <p>مقادیر ثابت‌ها میتوانند شامل عبارات منطقی و ریاضی نیز باشند.</p>
 
           </td>
           <td class="code leading">
@@ -128,8 +116,8 @@ arbitrary precision.</p>
         
         <tr>
           <td class="docs">
-            <p>A numeric constant has no type until it&rsquo;s given
-one, such as by an explicit cast.</p>
+            <p>یک ثابت عددی تا زمانی که بصورت تبدیلی
+واضح به آن تایپی داده نشده، تایپی ندارد.</p>
 
           </td>
           <td class="code leading">
@@ -142,10 +130,10 @@ one, such as by an explicit cast.</p>
         
         <tr>
           <td class="docs">
-            <p>A number can be given a type by using it in a
-context that requires one, such as a variable
-assignment or function call. For example, here
-<code>math.Sin</code> expects a <code>float64</code>.</p>
+            <p>به یک عدد میتوان بوسیله‌ی استفاده از آن در یک کانتکست تایپ داد،
+به مانند مقداری دهی یک متغیر یا صدا کردن یک تابع.
+برای مثال،  از خروجی <code>math.Sin</code>
+انتظار یک <code>float64</code> را داریم.</p>
 
           </td>
           <td class="code">

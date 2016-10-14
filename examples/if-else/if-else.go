@@ -1,5 +1,4 @@
-// Branching with `if` and `else` in Go is
-// straight-forward.
+// شاخه بندی به `if` و  `else` در گو بسیار راحت است.
 
 package main
 
@@ -7,21 +6,21 @@ import "fmt"
 
 func main() {
 
-    // Here's a basic example.
+    // یک مثال ساده.
     if 7%2 == 0 {
         fmt.Println("7 is even")
     } else {
         fmt.Println("7 is odd")
     }
 
-    // You can have an `if` statement without an else.
+    // حتی شما میتونید از `if` بدون else استفاده کنید.
     if 8%4 == 0 {
         fmt.Println("8 is divisible by 4")
     }
 
-    // A statement can precede conditionals; any variables
-    // declared in this statement are available in all
-    // branches.
+    // یک شرایط میتونه بر دیگر وضعیت‌ها مقدم باشه؛
+    // هر متغیری در این شرایط تعریف شود
+    // در تمامی حالت‌ها در دسترس است.
     if num := 9; num < 0 {
         fmt.Println(num, "is negative")
     } else if num < 10 {
@@ -31,5 +30,5 @@ func main() {
     }
 }
 
-// Note that you don't need parentheses around conditions
-// in Go, but that the braces are required.
+// حواستون باشه که نیازی به پرانتز‌های مزخرف
+// در اطراف حالت‌ها در گو نیست، اما براکت‌ها الزامی‌ست.
